@@ -1,0 +1,19 @@
+
+
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Liste des animaux</h1>
+          Voici la liste des animaux. Vous pouvez les trier ainsi que choisir vos favoris. 
+        </div>
+      </section>
+      <div style="text-align: center;width:100%;"><input style="text-align: center;" type="text" id="search" onkeyup="searchInAnimals()" placeholder="Cherchez des animaux.. " title="Type in a name"></div><br>
+      <!-- Show only fav animals and all animals button -->
+      <div style="text-align: center;width:100%;">
+        <button class="btn btn-primary" onclick="showFavAnimals()">Voir les animaux favoris</button>
+        <button class="btn btn-primary" onclick="showAllAnimals()">Voir tous les animaux</button>
+      </div><br><br>
+      <div id="answer" style="text-align: center;"></div>
+      <div id="animaux-connected">
+        Loading...
+      </div>

@@ -1,0 +1,7 @@
+.enclos-img {
+    width: 100vw;
+    height: 64.5412131vw;
+    image-rendering: pixelated;
+    background-image: url("enclos.webp");
+    background-size: cover;
+}
